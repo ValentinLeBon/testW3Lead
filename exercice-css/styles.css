@@ -1,0 +1,43 @@
+/***************************** EXERCICE 1 *****************************/
+.css-container .parent:first-of-type .item div {
+    background-color: #ddd;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+
+/***************************** EXERCICE 2 *****************************/
+.css-container .parent:nth-of-type(2) .item div {
+    background-color: #455fa1;
+    height: 80px;
+    width: 100%;
+}
+
+/***************************** EXERCICE 3 *****************************/
+.css-container .parent:nth-of-type(3) .item p {
+    background-color: #455fa1;
+    color: white;
+    height: 60px;
+    width: 200px;
+}
+
+/***************************** EXERCICE 4 *****************************/
+.css-container .parent:nth-of-type(4) .item a:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.css-container .parent:nth-of-type(4) .item a {
+    display: block;
+    width: 200px;
+    text-align: center;
+}
+
+.css-container .parent:nth-of-type(4) .item a:first-of-type {
+    padding: 20px;
+    background-color: #cccccc;
+}
+
+.css-container .parent:nth-of-type(4) .item a:last-of-type {
+    border: solid 1px #ddd;
+    padding: 20px;
+}
